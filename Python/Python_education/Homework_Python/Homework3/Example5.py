@@ -20,3 +20,19 @@ for i in range(-n, 1):
 print(list1)
 
 
+# n = int(input('Введите количество чисел Фибоначчи в списке: ')) 
+ 
+# def get_fibonacci(n): 
+#     fibo_nums = [] 
+#     a, b = 1, 1 
+#     for i in range(n-1): 
+#         fibo_nums.append(a) 
+#         a, b = b, a + b                                      №вариант Дениса https://github.com/DenisAFW/Seminar3/blob/master/DZ5.py
+#     a, b = 0, 1 
+#     for i in range (n): 
+#         fibo_nums.insert(0, a) 
+#         a, b = b, a - b 
+#     return fibo_nums 
+ 
+# fibo_nums = get_fibonacci(n) 
+# print(get_fibonacci(n))
