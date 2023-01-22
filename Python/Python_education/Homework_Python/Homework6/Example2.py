@@ -42,7 +42,7 @@ from random import uniform
 # print(max, min)
 # print(round(dif,2))
 
-# з вариант решения с оптимизацией кода
+# Третий вариант решения с оптимизацией кода
 
 lst = list(map(float, input("Введите числа через пробел:\n").split()))
 new_lst = [round(i%1,2) for i in lst if i%1 != 0]                                 
